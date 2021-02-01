@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../python-selenium-automation-master/.idea/python-selenium-automation-master.iml" filepath="$PROJECT_DIR$/../python-selenium-automation-master/.idea/python-selenium-automation-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/seleniumProject1.iml" filepath="$PROJECT_DIR$/.idea/seleniumProject1.iml" />
+    </modules>
+  </component>
+</project>
