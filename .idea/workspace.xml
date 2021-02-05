@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c08c907-fb3c-40b1-a314-2e6e45cae6bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/test_report.html" beforeDir="false" afterPath="$PROJECT_DIR$/reports/test_report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
-    </list>
+    <list default="true" id="9c08c907-fb3c-40b1-a314-2e6e45cae6bf" name="Default Changelist" comment="" />
     <disabled>
       <disabled_changelists>
         <list default="true" id="9c08c907-fb3c-40b1-a314-2e6e45cae6bf" name="Default Changelist" comment="first tests ran bdd and webdriver tested amazon.com/create/account">
@@ -66,6 +62,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JupyterPython" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="Settings.CustomPostfixTemplates" />
@@ -252,7 +249,7 @@
       <workItem from="1612388775472" duration="654000" />
       <workItem from="1612483973306" duration="139000" />
       <workItem from="1612484128955" duration="198000" />
-      <workItem from="1612484331278" duration="684000" />
+      <workItem from="1612484331278" duration="1389000" />
     </task>
     <task id="LOCAL-00001" summary="first tests ran bdd and webdriver tested amazon.com/create/account">
       <created>1612223614981</created>
@@ -315,7 +312,7 @@
     <SUITE FILE_PATH="coverage/seleniumProject1$__about__.coverage" NAME="__about__ Coverage Results" MODIFIED="1612209488062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/packaging" />
     <SUITE FILE_PATH="coverage/seleniumProject1$warnings.coverage" NAME="warnings Coverage Results" MODIFIED="1612208367652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_pytest" />
     <SUITE FILE_PATH="coverage/seleniumProject1$__version.coverage" NAME="__version Coverage Results" MODIFIED="1612209313379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/pytest_html" />
-    <SUITE FILE_PATH="coverage/seleniumProject1$pytest_in_test_py.coverage" NAME="pytest in test.py Coverage Results" MODIFIED="1612484421103" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/seleniumProject1$pytest_in_test_py.coverage" NAME="pytest in test.py Coverage Results" MODIFIED="1612485066348" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/seleniumProject1$_tracing.coverage" NAME="_tracing Coverage Results" MODIFIED="1612209382507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/pluggy" />
     <SUITE FILE_PATH="coverage/seleniumProject1$develop.coverage" NAME="develop Coverage Results" MODIFIED="1612205930517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command" />
     <SUITE FILE_PATH="coverage/seleniumProject1$py38compat.coverage" NAME="py38compat Coverage Results" MODIFIED="1612205844313" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils" />
