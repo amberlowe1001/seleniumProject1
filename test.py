@@ -33,7 +33,7 @@ class TestWebsite:
 
         self.browser.maximize_window()
         self.browser.implicitly_wait(10)
-        self.browser.get("https://www.amazon.com/gp/help/customer/display.html")
+        self.browser.get("https://www.amazon.com/ap/register?openid.pape.max_auth_age=0&openid.return_to=https%3A%2F%2Fwww.amazon.com%2F%3F_encoding%3DUTF8%26ref_%3Dnav_newcust&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&")
 
         yield
 
@@ -61,12 +61,12 @@ class TestWebsite:
         assert products_list is not None
         assert self.browser.title == "Amazon Registration"
 
-    def test_search(self, a=a):
+    def test_search(self, a=):
         """this test checks search from the main menu"""
         search_button = self.browser.find_element_by_css_selector("[a-icon-logo]")
         search_button.click()
 
-        search_field = self.browser.find_element_by_id("#a-page")
+        search_field = self.browser.find_element_by_id("a-page")
         search_field.send_keys("Selenium")
 
         submit_button = self.browser.find_element_by_xpath("////*[@id='"+a.id+"']")
