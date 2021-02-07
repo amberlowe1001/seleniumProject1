@@ -16,8 +16,12 @@ def open_google(context):
     context.driver.get('https://www.amazon.com/')
 
 
+def search_word(args):
+    pass
+
+
 @when('Input {search_query} into Amazon search field')
-def input_amazon_search(context, search_query, search_word=None):
+def input_amazon_search(context, search_query):
     search_field = context.driver.find_element(*SEARCH_FIELD)
     search_field.send_keys(search_query)
     search.clear()

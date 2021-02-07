@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
@@ -65,6 +69,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HierarchyBrowserManager">
+    <option name="EXPORT_FILE_PATH" value="" />
+  </component>
   <component name="ProjectId" id="1nt7YZLTdPxojPY9rmMNYe7UZOQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -75,6 +82,7 @@
     </configurations>
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
     <option name="compactDirectories" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -89,9 +97,13 @@
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JupyterPython" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/blazemeter-behave/behave.ini" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -110,74 +122,8 @@
       <recent name="C:\Users\amber\PycharmProjects\seleniumProject1" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.product_search">
-    <configuration name="fixtures" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="seleniumProject1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/blazemeter-behave" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/blazemeter-behave/fixtures.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="install_data_ext" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="seleniumProject1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Duke-programming and solftware fundamentals/ipython/setupext" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Duke-programming and solftware fundamentals/ipython/setupext/install_data_ext.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="product_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="seleniumProject1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/features/steps" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/features/steps/product_search.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest_selenium" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Selenium Tests">
+    <configuration name="__init__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python-selenium-automation-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -185,12 +131,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv/Lib/site-packages/pytest_selenium" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../../../Python39/Lib/importlib" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Lib/site-packages/pytest_selenium/pytest_selenium.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../../../Python39/Lib/importlib/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test.amazon_creation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProject1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.amazon_creation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -203,9 +171,13 @@
       <module name="seleniumProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="C:\Users\amber\PycharmProjects\seleniumProject\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <envs>
+        <env name="SystemRoot" value="C:\Windows" />
+        <env name="ALLUSERSPROFILE" value="C:\ProgramData" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\amber\PycharmProjects\python-automation\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -213,7 +185,7 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;--html\u003dreports/test_report.html&quot;" />
       <option name="_new_target" value="&quot;test.TestWebsite&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="_new_targetType" value="&quot;CUSTOM&quot;" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="tests" factoryName="py.test">
@@ -233,6 +205,40 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test.TestWebsite.test_navigation_to_all_tools" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProject1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../python-selenium-automation" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestWebsite.test_navigation_to_all_tools&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test.TestWebsite.test_search" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="seleniumProject1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\amber\AppData\Local\Microsoft\WindowsApps\python3.8.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.TestWebsite.test_search&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for test.TestWebsite.test_tools_menu" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="seleniumProject1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -250,13 +256,30 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in test.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="seleniumProject1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="C:\Users\amber\PycharmProjects\seleniumProject\venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.product_search" />
+        <item itemvalue="Python.__init__ (1)" />
         <item itemvalue="Python tests.pytest for test.TestWebsite.test_tools_menu" />
-        <item itemvalue="Python.pytest_selenium" />
-        <item itemvalue="Python.fixtures" />
-        <item itemvalue="Python.install_data_ext" />
+        <item itemvalue="Python tests.pytest for test.TestWebsite.test_navigation_to_all_tools" />
+        <item itemvalue="Python tests.pytest in test.py" />
+        <item itemvalue="Python.test.amazon_creation" />
       </list>
     </recent_temporary>
   </component>
@@ -295,7 +318,9 @@
       <workItem from="1612636531133" duration="2798000" />
       <workItem from="1612668626322" duration="207000" />
       <workItem from="1612668848188" duration="6554000" />
-      <workItem from="1612682193248" duration="1777000" />
+      <workItem from="1612682193248" duration="3366000" />
+      <workItem from="1612722173194" duration="762000" />
+      <workItem from="1612723251954" duration="5783000" />
     </task>
     <task id="LOCAL-00001" summary="first tests ran bdd and webdriver tested amazon.com/create/account">
       <created>1612223614981</created>
@@ -345,13 +370,19 @@
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pytest_selenium_py$environment.coverage" NAME="environment Coverage Results" MODIFIED="1612686090864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features" />
     <SUITE FILE_PATH="coverage/seleniumProject1$easy_install.coverage" NAME="easy_install Coverage Results" MODIFIED="1612206087349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/command" />
     <SUITE FILE_PATH="coverage/seleniumProject1$plugin__1_.coverage" NAME="plugin (1) Coverage Results" MODIFIED="1612209352888" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/pytest_base_url" />
     <SUITE FILE_PATH="coverage/plugin_py$setup.coverage" NAME="setup Coverage Results" MODIFIED="1612631073401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/pkg_resources/tests/data/my-test-package-source" />
+    <SUITE FILE_PATH="coverage/pytest_selenium_py$test_amazon_creation.coverage" NAME="test.amazon_creation Coverage Results" MODIFIED="1612726775060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/chardetect_exe$install_data_ext.coverage" NAME="install_data_ext Coverage Results" MODIFIED="1612675331074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Duke-programming and solftware fundamentals/ipython/setupext" />
     <SUITE FILE_PATH="coverage/plugin_py$plugin.coverage" NAME="plugin Coverage Results" MODIFIED="1612630767167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/pytest_html" />
+    <SUITE FILE_PATH="coverage/pytest_selenium_py$test_program.coverage" NAME="test_program Coverage Results" MODIFIED="1612686205751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../Python39/Lib/unittest/test" />
     <SUITE FILE_PATH="coverage/seleniumProject1$argparsing.coverage" NAME="argparsing Coverage Results" MODIFIED="1612208563236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_pytest/config" />
     <SUITE FILE_PATH="coverage/seleniumProject1$plugin.coverage" NAME="plugin Coverage Results" MODIFIED="1612209330064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/pytest_html" />
+    <SUITE FILE_PATH="coverage/pytest_selenium_py$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1612726755012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_distutils_hack" />
+    <SUITE FILE_PATH="coverage/pytest_selenium_py$product_search_feature_User_can_search_for_a_product.coverage" NAME="product_search.feature:User can search for a product Coverage Results" MODIFIED="1612725874538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/pytest_selenium_py$web_factory.coverage" NAME="web_factory Coverage Results" MODIFIED="1612686215853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/blazemeter-behave/web_source" />
     <SUITE FILE_PATH="coverage/chardetect_exe$pytest_in_test_amazon_creation_py.coverage" NAME="pytest in test.amazon_creation.py Coverage Results" MODIFIED="1612674732903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/seleniumProject1$__about__.coverage" NAME="__about__ Coverage Results" MODIFIED="1612209488062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/packaging" />
     <SUITE FILE_PATH="coverage/seleniumProject1$warnings.coverage" NAME="warnings Coverage Results" MODIFIED="1612208367652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_pytest" />
@@ -366,16 +397,18 @@
     <SUITE FILE_PATH="coverage/seleniumProject1$pytester.coverage" NAME="pytester Coverage Results" MODIFIED="1612208321622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_pytest" />
     <SUITE FILE_PATH="coverage/seleniumProject1$_argcomplete.coverage" NAME="_argcomplete Coverage Results" MODIFIED="1612208533679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_pytest" />
     <SUITE FILE_PATH="coverage/seleniumProject1$override.coverage" NAME="override Coverage Results" MODIFIED="1612208610090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_distutils_hack" />
+    <SUITE FILE_PATH="coverage/pytest_selenium_py$pytest_for_test_TestWebsite_test_navigation_to_all_tools.coverage" NAME="pytest for test.TestWebsite.test_navigation_to_all_tools Coverage Results" MODIFIED="1612727983308" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../python-selenium-automation" />
     <SUITE FILE_PATH="coverage/seleniumProject1$file_util.coverage" NAME="file_util Coverage Results" MODIFIED="1612205851739" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils" />
     <SUITE FILE_PATH="coverage/seleniumProject1$environment.coverage" NAME="environment Coverage Results" MODIFIED="1612208247675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features" />
     <SUITE FILE_PATH="coverage/seleniumProject1$pytester_assertions.coverage" NAME="pytester_assertions Coverage Results" MODIFIED="1612208435664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_pytest" />
+    <SUITE FILE_PATH="coverage/pytest_selenium_py$product_search_feature.coverage" NAME="product_search.feature Coverage Results" MODIFIED="1612686128809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/seleniumProject1$Selenium_Tests.coverage" NAME="Selenium Tests Coverage Results" MODIFIED="1612484361498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/seleniumProject1$crayons.coverage" NAME="crayons Coverage Results" MODIFIED="1612206036867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages" />
     <SUITE FILE_PATH="coverage/seleniumProject1$dir_util.coverage" NAME="dir_util Coverage Results" MODIFIED="1612208067711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils" />
     <SUITE FILE_PATH="coverage/seleniumProject1$debugging.coverage" NAME="debugging Coverage Results" MODIFIED="1612208506680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_pytest" />
-    <SUITE FILE_PATH="coverage/pytest_selenium_py$pytest_for_test_TestWebsite_test_tools_menu.coverage" NAME="pytest for test.TestWebsite.test_tools_menu Coverage Results" MODIFIED="1612682795616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pytest_selenium_py$pytest_for_test_TestWebsite_test_tools_menu.coverage" NAME="pytest for test.TestWebsite.test_tools_menu Coverage Results" MODIFIED="1612727048046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/seleniumProject1$util.coverage" NAME="util Coverage Results" MODIFIED="1612209157161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_pytest/assertion" />
-    <SUITE FILE_PATH="coverage/pytest_selenium_py$Selenium_Tests.coverage" NAME="Selenium Tests Coverage Results" MODIFIED="1612682747466" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/pytest_selenium_py$Selenium_Tests.coverage" NAME="Selenium Tests Coverage Results" MODIFIED="1612729241066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/seleniumProject1$cmd.coverage" NAME="cmd Coverage Results" MODIFIED="1612205834984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/setuptools/_distutils" />
     <SUITE FILE_PATH="coverage/seleniumProject1$findpaths.coverage" NAME="findpaths Coverage Results" MODIFIED="1612208548919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_pytest/config" />
     <SUITE FILE_PATH="coverage/seleniumProject1$extras.coverage" NAME="extras Coverage Results" MODIFIED="1612209321738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/pytest_html" />
@@ -398,6 +431,7 @@
     <SUITE FILE_PATH="coverage/seleniumProject1$python_api.coverage" NAME="python_api Coverage Results" MODIFIED="1612209248271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_pytest" />
     <SUITE FILE_PATH="coverage/seleniumProject1$setuponly.coverage" NAME="setuponly Coverage Results" MODIFIED="1612208457509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_pytest" />
     <SUITE FILE_PATH="coverage/seleniumProject1$recwarn.coverage" NAME="recwarn Coverage Results" MODIFIED="1612209266745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_pytest" />
+    <SUITE FILE_PATH="coverage/pytest_selenium_py$__init____1_.coverage" NAME="__init__ (1) Coverage Results" MODIFIED="1612728743220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../Python39/Lib/importlib" />
     <SUITE FILE_PATH="coverage/seleniumProject1$code.coverage" NAME="code Coverage Results" MODIFIED="1612208588791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_pytest/_code" />
     <SUITE FILE_PATH="coverage/seleniumProject1$test.coverage" NAME="test Coverage Results" MODIFIED="1612200034438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/seleniumProject1$exceptions.coverage" NAME="exceptions Coverage Results" MODIFIED="1612208570595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Lib/site-packages/_pytest/config" />

@@ -68,10 +68,8 @@ class TestWebsite:
         search_field = self.browser.find_element_by_id("#a-page")
         search_field.send_keys("Selenium")
 
-        submit_button = self.browser.find_element_by_xpath("////*[@id='"+a.id+"']")
+        submit_button = self.browser.find_element_by_xpath("////*[@id='" + a.id + "']")
         submit_button.click()
 
         search_page_field = self.browser.find_element_by_class_name("js_page")
         assert search_page_field.get_property("value") == "Selenium"
-
-
