@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalDependencies">
+    <plugin id="AngularJS" />
+    <plugin id="Git4Idea" />
+    <plugin id="HtmlTools" />
+    <plugin id="Pythonid" />
+    <plugin id="com.intellij.CloudConfig" />
+    <plugin id="com.intellij.css" />
+    <plugin id="com.intellij.selenium" />
+    <plugin id="com.jetbrains.performancePlugin" />
+    <plugin id="com.jetbrains.plugins.webDeployment" />
+    <plugin id="com.jetbrains.pycharm.pro.customization" />
+    <plugin id="com.jetbrains.restClient" />
+    <plugin id="com.kite.intellij" />
+    <plugin id="gherkin" />
+    <plugin id="org.jetbrains.plugins.github" />
+    <plugin id="org.jetbrains.plugins.less" />
+    <plugin id="org.jetbrains.plugins.terminal" />
+    <plugin id="org.jetbrains.settingsRepository" />
+    <plugin id="ru.meanmail.plugins.prettify-python" />
+  </component>
+</project>

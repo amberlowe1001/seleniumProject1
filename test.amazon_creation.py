@@ -3,9 +3,8 @@
 
 import pytest
 from selenium import webdriver
-from setuptools._distutils.command import install
-from webdriver_manager.chrome import ChromeDriverManager
-from webdriver_manager.utils import ChromeType
+from webdriver.chrome import ChromeDriverManager
+from webdriver.utils import ChromeType
 
 
 class TestWebsite:
